@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,400;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background: #111123;
+} 
+::selection{
+    color: #111123;
+    background-color: #faf6f4;
+}
+/* ---Preloader CSS---{ */
+#preloader{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+}
+#preloader .loader{
+    background: #ff6a00;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    border-radius: 50%;
+    animation: loader 0.6s linear infinite alternate;
+} 
+@keyframes loader {
+    100%{
+        transform: translateY(-25px);
+    }
+}
+#preloader .loader:nth-child(2){
+    animation-delay: 0.25s;
+    background: #ffffff;
+}
+#preloader .loader:nth-child(3){
+    animation-delay: 1s;
+    background: #008000;
+}
+/* ---Preloader CSS---} */
+
+#content{
+    display: none;
+    overflow: hidden;
+}
+/*---Background CSS--{*/
+.background {
+    width: 100%;
+    height: 100vh;
+    background-image: url('Images/Banner.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*---Background CSS---}*/
+
+/* ---Home button CSS--- */
+.icon{
+    display: flex;
+    align-items: flex-end;
+}
+.icon a {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
+    flex-wrap: nowrap;
+    font-size: 24px;
+    margin-top: 3%;
+    margin-left: 93%;
+    color: #fffeeb;
+    cursor: pointer;
+    text-decoration: none;
+}
+.r-more {
+    color: #fffeeb;
+    text-decoration: none;
+    background-color: transparent;
+}
+.r-more:hover {
+    margin: 3px;
+    padding: 3px;
+    padding-top: 1px;
+    border-radius: 8px;
+    border: 2px solid #ffffff;
+    transition: 0.10s all;
+}
+.image{
+    display: flex;
+    flex-basis: 20%;
+    margin-left: 5%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.image-1{
+    display: flex;
+    flex-basis: 24%;
+    margin-left: 2.5%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.image-2{
+    display: flex;
+    flex-basis: 30%;
+    margin-left: 8%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.image-3{
+    display: flex;
+    flex-basis: 50%;
+    margin-left: 8%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.PM-img{
+    cursor: pointer;
+    height: 200px;
+    padding: 20px, 35px;
+    margin: 30px;
+    width: auto;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    opacity: 1;
+}
+.PM-img:hover{
+    opacity: 0.75;
+    transform: scale(1.1, 1.1);
+    transition: 0.3s ease-in;
+}
+.img {
+    right: 50%;
+    display: block;
+    cursor: pointer;
+    margin: 20px;
+    height: 200px;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: #000;
+    opacity: 1;
+}
+.img:hover{
+    opacity: 0.8;
+}
+.PM-txt {
+    text-align: center;
+    margin: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    color: #f2e9e4;
+    background-color: #111123;
+    border: 1px dashed #ffffff;
+}
+.PM-txt:hover{
+    box-shadow: 5px 5px 12px #111123;
+}
+.bold_text, b, i {
+    color: #ffffff;
+}
+.txt, .Singh-txt, .text {
+    background: #4a4e69;
+    flex-basis: 98%;
+    margin: 10px;
+    padding: 0 0 70px 0;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: #f2e9e4;
+}
+
+/*---Footer CSS---{*/
+.footer{
+    margin: 10px;
+    padding: 10px;
+    flex-basis: 98%;
+    border: 3px solid #111123;
+    border-radius: 10px;
+    background: #fffeeb;
+}
+icon-icon {
+    visibility: visible;
+}
+.heart {
+    font-size: 24px;
+    color: #4a4e69;
+    visibility: visible;
+}
+.foot-txt{
+    padding-bottom: 2px;
+    font-size: 1rem;
+    text-align: center;
+}
+.Italic{
+    color: #111123;
+    text-align: center;
+}
+.Bold, span{
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+/*---Footer CSS---}*/
