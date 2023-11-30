@@ -4,7 +4,7 @@
     .background {
         width: 100%;
         height: 80vh;
-        background-image: url('Banner.png');
+        background-image: url('Images/Banner.png');
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
@@ -41,6 +41,17 @@
         font-size: 20px;
         margin-top: 4%;
         margin-left: 92%;
+    }
+    .icon a:hover{
+        font-size: 20px;
+        margin-top: 4%;
+        margin-left: 92%;
+    }
+    .back-arrow a{
+        font-size: 20px;
+    }
+    .back-arrow a:hover{
+        font-size: 22px;
     }
 }
 @media screen and (max-width: 475px) {
