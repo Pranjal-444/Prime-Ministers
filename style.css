@@ -53,7 +53,7 @@ body {
 .background {
     width: 100%;
     height: 100vh;
-    background-image: url('Banner.png');
+    background-image: url('Images/Banner.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -77,6 +77,37 @@ body {
     color: #fffeeb;
     cursor: pointer;
     text-decoration: none;
+    opacity: 1;
+}
+.icon a:hover{
+    opacity: 0.7;
+    font-size: 26px;
+    transition: 0.33s ease-in-out;
+}
+.back-arrow{
+    display: flex;
+}
+.back-arrow a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px ;
+    font-size: 24px;
+    margin-top: 3%;
+    margin-left: 48%;
+    color: #fffeeb;
+    background: #4a4e69;
+    border: 2px solid #ffffff;
+    text-decoration: none;
+    opacity: 1;
+}
+.back-arrow  a:hover{
+    opacity: 0.7;
+    font-size: 26px;
+    transition: 0.33s ease-in-out all;
 }
 .r-more {
     color: #fffeeb;
